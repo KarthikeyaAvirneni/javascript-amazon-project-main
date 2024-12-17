@@ -29,7 +29,7 @@ export function addToCart(productId){
   export function removeFromCart(productId){
     const newCart=[];
     cart.forEach(()=>{
-      if(cartitem.productId!==productId){
+      if(cartItem.productId!==productId){
         newCart.push(cartitem);
       }
     });
